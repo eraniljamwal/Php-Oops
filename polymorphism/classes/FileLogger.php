@@ -1,0 +1,10 @@
+<?php
+
+class FileLogger implements LoggerInterface// logger library created to use in multiple projects
+{
+  public function log($message){
+    echo "Logging Message of File : ".$message;
+  }
+}
+
+?>
